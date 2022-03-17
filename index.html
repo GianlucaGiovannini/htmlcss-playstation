@@ -18,11 +18,11 @@
 <body>
 
     <header id="site_header">
-        <div class="sony container-fluid text-end bg-black">
+        <div class="sony container-fluid text-end bg-black p-2">
             <img src="./assets/img/sony_logo.svg" alt="logo sony">
         </div>
         <!-- /.sony -->
-        <nav class="navbar navbar-expand-lg bg-white navbar-light text_dark">
+        <nav class="navbar navbar-expand-lg bg-white navbar-light">
             <div class="container-fluid mx-2">
                 <a class="navbar-brand" href="#">
                     <img class="color_primary" src="./assets/img/play_logo.svg" alt="logo sony">
@@ -33,9 +33,9 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item dropdown me-3 fw-bold">
-                            <a class="nav-link dropdown" href="#" data-bs-toggle="dropdown" aria-expanded="true">
+                            <a class="nav-link active dropdown" href="#" data-bs-toggle="dropdown" aria-expanded="true">
                                 Giochi 
-                                <img src="./assets/img/chevron-down-solid.svg" alt="Chevron">
+                                <img class="ms-1" src="./assets/img/chevron-down-solid.svg" alt="Chevron">
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
@@ -47,9 +47,9 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown me-3 fw-bold">
-                            <a class="nav-link dropdown" href="#" data-bs-toggle="dropdown" aria-expanded="true">
+                            <a class="nav-link active dropdown" href="#" data-bs-toggle="dropdown" aria-expanded="true">
                                 Hardware 
-                                <img src="./assets/img/chevron-down-solid.svg" alt="Chevron">
+                                <img class="ms-1" src="./assets/img/chevron-down-solid.svg" alt="Chevron">
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
@@ -61,9 +61,9 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown me-3 fw-bold">
-                            <a class="nav-link dropdown" href="#" data-bs-toggle="dropdown" aria-expanded="true">
+                            <a class="nav-link active dropdown" href="#" data-bs-toggle="dropdown" aria-expanded="true">
                                 Servizi 
-                                <img src="./assets/img/chevron-down-solid.svg" alt="Chevron">
+                                <img class="ms-1" src="./assets/img/chevron-down-solid.svg" alt="Chevron">
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
@@ -75,9 +75,9 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown me-3 fw-bold">
-                            <a class="nav-link dropdown" href="#" data-bs-toggle="dropdown" aria-expanded="true">
+                            <a class="nav-link active dropdown" href="#" data-bs-toggle="dropdown" aria-expanded="true">
                                 Novità 
-                                <img src="./assets/img/chevron-down-solid.svg" alt="Chevron">
+                                <img class="ms-1" src="./assets/img/chevron-down-solid.svg" alt="Chevron">
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
@@ -89,9 +89,9 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown me-3 fw-bold">
-                            <a class="nav-link dropdown" href="#" data-bs-toggle="dropdown" aria-expanded="true">
+                            <a class="nav-link active dropdown" href="#" data-bs-toggle="dropdown" aria-expanded="true">
                                 Fai acquisti 
-                                <img src="./assets/img/chevron-down-solid.svg" alt="Chevron">
+                                <img class="ms-1" src="./assets/img/chevron-down-solid.svg" alt="Chevron">
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
@@ -103,9 +103,9 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown me-3 fw-bold">
-                            <a class="nav-link dropdown" href="#" data-bs-toggle="dropdown" aria-expanded="true">
+                            <a class="nav-link active dropdown" href="#" data-bs-toggle="dropdown" aria-expanded="true">
                                 Supporto 
-                                <img src="./assets/img/chevron-down-solid.svg" alt="Chevron">
+                                <img class="ms-1" src="./assets/img/chevron-down-solid.svg" alt="Chevron">
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
@@ -119,9 +119,9 @@
                     </ul>
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item dropdown me-3 fw-bold">
-                            <a class="nav-link dropdown" href="#" data-bs-toggle="dropdown" aria-expanded="true">
+                            <a class="nav-link active dropdown" href="#" data-bs-toggle="dropdown" aria-expanded="true">
                                 My PlayStation 
-                                <img src="./assets/img/chevron-down-solid.svg" alt="Chevron">
+                                <img class="ms-1" src="./assets/img/chevron-down-solid.svg" alt="Chevron">
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
@@ -229,7 +229,7 @@
             <!-- /.container -->
         </div>
         <!-- /.slider_jumbo -->
-        <section class="new_product text-center pt-5">
+        <section class="new_product text-center pt-5 mb-3">
             <div class="title_product mb-5">
                 <a href="#" class="product_slogan text-uppercase color_primary fs-6">
                     Play has no limits
@@ -343,8 +343,224 @@
             <!-- /.container -->
         </section>
         <!-- /.new_console -->
+        <section class="new_game">
+            <div class="container h-100">
+                <div class="row flex-column justify-content-end h-100 text-white">
+                    <div class="col-12 col-xxl-5">
+                        <div class="img_logo_bg mb-4">
+                            <img src="./assets/img/it-takes-two-logo.png" alt="Nome background">
+                        </div>
+                        <!-- /.img_logo_bg -->
+                        <div class="title_bg mb-4">
+                            <h2 class="display-4">Un'avventura cooperativa selvaggia ti attende</h2>
+                        </div>
+                        <!-- /.title_bg -->
+                        <div class="desc_game fs-5 mb-4 pe-2">
+                            <p>
+                                Trova un amico e partite insieme per l'avventura più folle delle vostre vite in It Takes Two, un gioco d'avventura cooperativa a piattaforme che stravolge il suo genere.
+                            </p>
+                        </div>
+                        <!-- /.desc_game -->
+                        <a class="btn btn_red rounded-pill text-white me-3 fw-bold mb-5" href="#">
+                            Acquista ora
+                        </a>
+                        <!-- /.btn -->
+                    </div>
+                    <!-- /.col-1 col-lg-5 -->
+                </div>
+                <!-- /.row -->
 
-        .
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /.new_game -->
+        <div class="slider_new_game py-5 text-white">
+            <div class="container">
+                <div class="slider_title mb-5">
+                    <h3 class="display-5">
+                        Nuove uscite
+                    </h3>
+                    <div class="fs-3 mb">
+                        Giochi incredibili per PS4 e PS5 disponibili ora
+                    </div>
+                </div>
+                <!-- /.slider_title -->
+                <div class="row row-cols-2 row-cols-md-3 row-cols-xxl-6 gx-4 gy-5">
+                    <div class="col">
+                        <div class="cards">
+                            <div class="cards_top mb-3">
+                                <img src="./assets/img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony hacks">
+                            </div>
+                            <!-- /.cards_top -->
+                            <div class="cards_bottom">
+                                Tony Hawks<span>TM</span> Pro Skater<span>TM</span> 1+2
+                            </div>
+                            <!-- /.cards_bottom -->
+                        </div>
+                        <!-- /.card -->
+                    </div>
+                    <!-- /.col -->
+                    <div class="col">
+                        <div class="cards">
+                            <div class="cards_top mb-3">
+                                <img src="./assets/img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Crash bandicoot">
+                            </div>
+                            <!-- /.cards_top -->
+                            <div class="cards_bottom">
+                                Tony Hawks<span>TM</span> Pro Skater<span>TM</span> 1+2
+                            </div>
+                            <!-- /.cards_bottom -->
+                        </div>
+                        <!-- /.card -->
+                    </div>
+                    <!-- /.col -->
+                    <div class="col">
+                        <div class="cards">
+                            <div class="cards_top mb-3">
+                                <img src="./assets/img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony hacks">
+                            </div>
+                            <!-- /.cards_top -->
+                            <div class="cards_bottom">
+                                Tony Hawks<span>TM</span> Pro Skater<span>TM</span> 1+2
+                            </div>
+                            <!-- /.cards_bottom -->
+                        </div>
+                        <!-- /.card -->
+                    </div>
+                    <!-- /.col -->
+                    <div class="col">
+                        <div class="cards">
+                            <div class="cards_top mb-3">
+                                <img src="./assets/img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Crash bandicoot">
+                            </div>
+                            <!-- /.cards_top -->
+                            <div class="cards_bottom">
+                                Tony Hawks<span>TM</span> Pro Skater<span>TM</span> 1+2
+                            </div>
+                            <!-- /.cards_bottom -->
+                        </div>
+                        <!-- /.card -->
+                    </div>
+                    <!-- /.col -->
+                    <div class="col">
+                        <div class="cards">
+                            <div class="cards_top mb-3">
+                                <img src="./assets/img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony hacks">
+                            </div>
+                            <!-- /.cards_top -->
+                            <div class="cards_bottom">
+                                Tony Hawks<span>TM</span> Pro Skater<span>TM</span> 1+2
+                            </div>
+                            <!-- /.cards_bottom -->
+                        </div>
+                        <!-- /.card -->
+                    </div>
+                    <!-- /.col -->
+                    <div class="col">
+                        <div class="cards">
+                            <div class="cards_top mb-3">
+                                <img src="./assets/img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Crash bandicoot">
+                            </div>
+                            <!-- /.cards_top -->
+                            <div class="cards_bottom">
+                                Tony Hawks<span>TM</span> Pro Skater<span>TM</span> 1+2
+                            </div>
+                            <!-- /.cards_bottom -->
+                        </div>
+                        <!-- /.card -->
+                    </div>
+                    <!-- /.col -->
+                    <div class="col">
+                        <div class="cards">
+                            <div class="cards_top mb-3">
+                                <img src="./assets/img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony hacks">
+                            </div>
+                            <!-- /.cards_top -->
+                            <div class="cards_bottom">
+                                Tony Hawks<span>TM</span> Pro Skater<span>TM</span> 1+2
+                            </div>
+                            <!-- /.cards_bottom -->
+                        </div>
+                        <!-- /.card -->
+                    </div>
+                    <!-- /.col -->
+                    <div class="col">
+                        <div class="cards">
+                            <div class="cards_top mb-3">
+                                <img src="./assets/img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Crash bandicoot">
+                            </div>
+                            <!-- /.cards_top -->
+                            <div class="cards_bottom">
+                                Tony Hawks<span>TM</span> Pro Skater<span>TM</span> 1+2
+                            </div>
+                            <!-- /.cards_bottom -->
+                        </div>
+                        <!-- /.card -->
+                    </div>
+                    <!-- /.col -->
+                    <div class="col">
+                        <div class="cards">
+                            <div class="cards_top mb-3">
+                                <img src="./assets/img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony hacks">
+                            </div>
+                            <!-- /.cards_top -->
+                            <div class="cards_bottom">
+                                Tony Hawks<span>TM</span> Pro Skater<span>TM</span> 1+2
+                            </div>
+                            <!-- /.cards_bottom -->
+                        </div>
+                        <!-- /.card -->
+                    </div>
+                    <!-- /.col -->
+                    <div class="col">
+                        <div class="cards">
+                            <div class="cards_top mb-3">
+                                <img src="./assets/img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Crash bandicoot">
+                            </div>
+                            <!-- /.cards_top -->
+                            <div class="cards_bottom">
+                                Tony Hawks<span>TM</span> Pro Skater<span>TM</span> 1+2
+                            </div>
+                            <!-- /.cards_bottom -->
+                        </div>
+                        <!-- /.card -->
+                    </div>
+                    <!-- /.col -->
+                    <div class="col">
+                        <div class="cards">
+                            <div class="cards_top mb-3">
+                                <img src="./assets/img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony hacks">
+                            </div>
+                            <!-- /.cards_top -->
+                            <div class="cards_bottom">
+                                Tony Hawks<span>TM</span> Pro Skater<span>TM</span> 1+2
+                            </div>
+                            <!-- /.cards_bottom -->
+                        </div>
+                        <!-- /.card -->
+                    </div>
+                    <!-- /.col -->
+                    <div class="col">
+                        <div class="cards">
+                            <div class="cards_top mb-3">
+                                <img src="./assets/img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Crash bandicoot">
+                            </div>
+                            <!-- /.cards_top -->
+                            <div class="cards_bottom">
+                                Tony Hawks<span>TM</span> Pro Skater<span>TM</span> 1+2
+                            </div>
+                            <!-- /.cards_bottom -->
+                        </div>
+                        <!-- /.card -->
+                    </div>
+                    <!-- /.col -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.slider_jumbo -->
+
     </main>
     <!-- /#site_main -->
 

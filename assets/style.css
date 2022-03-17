@@ -71,6 +71,7 @@ a.color_primary,
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-bottom: 2px solid #919191;
 }
 
 .jumbotron img {
@@ -116,7 +117,6 @@ a.color_primary,
 
 .slider_jumbo .cards img {
     border-radius: 18px;
-    height:
 }
 
 .new_product .cards {
@@ -139,4 +139,25 @@ a.color_primary,
 .new_product .cards_top img {
     object-fit: contain;
     aspect-ratio: 1.5 / 1;
+}
+
+.new_game {
+    height: 75vh;
+    background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.new_game img {
+    width: auto;
+    height: 12rem;
+}
+
+.slider_new_game {
+    background-color: var(--bg-new-exit);
+}
+
+.slider_new_game .cards img {
+    border-radius: 18px;
 }
