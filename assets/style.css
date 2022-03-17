@@ -119,12 +119,21 @@ a.color_primary,
     height:
 }
 
+.new_product .cards {
+    opacity: 0.6;
+}
+
+.new_product .cards.active {
+    opacity: 1;
+}
+
 .new_product .cards.b_bottom {
     border-bottom: 1px solid blue;
 }
 
 .new_product .cards:hover {
     border-bottom: 1px solid blue;
+    opacity: 1;
 }
 
 .new_product .cards_top img {
