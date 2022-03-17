@@ -1,0 +1,14 @@
+:root {
+    --primary: #0070D1;
+    --text-dark: #1F1F1F;
+    --text-light: #8E8E8E;
+    --btn-dark: #363636;
+    --btn-blue: #2D64E6;
+    --btn-red: #CD3D0F;
+    --btn-light: #D9DADC;
+    --btn-lighter: #F5F5F5;
+    --bg-new-exit: #1F1F1F;
+    --bg-plus: #BEBCBB;
+    --bg-play-now: #161C3B;
+    --bg-footer: #00439C;
+}
