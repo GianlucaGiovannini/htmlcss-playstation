@@ -1,3 +1,5 @@
+/* #region COMMON */
+
 :root {
     --primary: #0070D1;
     --text-dark: #1F1F1F;
@@ -32,7 +34,13 @@ a {
 }
 
 
-/* UTILITY */
+/* #endregion COMMON */
+
+
+/* #region UTILITY */
+
+
+/* color */
 
 a.color_primary,
 .color_primary {
@@ -42,6 +50,9 @@ a.color_primary,
 .color_light {
     color: var(--text-light);
 }
+
+
+/* buttons */
 
 .btn_dark {
     background-color: var(--btn-dark);
@@ -67,16 +78,52 @@ a.color_primary,
     border-bottom: 2px solid #DBDBDB;
 }
 
+.btn_dark:hover,
+.btn_blue:hover,
+.btn_light:hover {
+    box-shadow: inset 0px 0px 0px 2px white;
+}
+
+.btn_red:hover,
+.btn_lighter:hover {
+    box-shadow: inset 0px 0px 0px 2px black;
+}
+
+
+/* unstyled list */
+
 .unstyled {
     list-style: none;
 }
 
 
-/* HEADER */
+/* registered and tm */
+
+.vt-s-1 {
+    font-size: 1.5rem;
+    vertical-align: super;
+}
+
+.vt-s-2 {
+    font-size: 0.5rem;
+    vertical-align: super;
+}
+
+
+/* #endregion UTILITY */
+
+
+/* #region HEADER */
+
+
+/* sony bar */
 
 .sony img {
     height: 0.9rem;
 }
+
+
+/* #region navbar */
 
 .dropdown-toggle::after {
     border: none;
@@ -139,6 +186,12 @@ a.color_primary,
     height: 12px;
 }
 
+
+/* #endregion navbar */
+
+
+/* jumbotron*/
+
 .jumbotron {
     height: 70vh;
     background-image: url(./img/jumbo-bg.png);
@@ -152,6 +205,9 @@ a.color_primary,
     width: auto;
     height: 3.4rem;
 }
+
+
+/* slider jumbo */
 
 .slider_jumbo .cards {
     position: relative;
@@ -197,6 +253,9 @@ a.color_primary,
     border-radius: 18px;
 }
 
+
+/* new product */
+
 .new_product .cards {
     opacity: 0.6;
 }
@@ -219,6 +278,9 @@ a.color_primary,
     aspect-ratio: 1.5 / 1;
 }
 
+
+/* new game */
+
 .new_game {
     height: 75vh;
     background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
@@ -232,6 +294,9 @@ a.color_primary,
     height: 12rem;
 }
 
+
+/* slider new game */
+
 .slider_new_game {
     background-color: var(--bg-new-exit);
 }
@@ -239,6 +304,9 @@ a.color_primary,
 .slider_new_game .cards img {
     border-radius: 18px;
 }
+
+
+/* playstation plus */
 
 .ps_plus {
     background-color: var(--bg-plus);
@@ -249,12 +317,25 @@ a.color_primary,
     height: 7rem;
 }
 
+
+/* playstation now */
+
 .ps_now {
     background-color: var(--bg-play-now);
 }
 
 
-/* footer */
+/* region follow */
+
+.follow .col:hover {
+    transform: translateY(-12px);
+}
+
+
+/* #endregion HEADER*/
+
+
+/* #region FOOTER */
 
 #site_footer {
     background-color: var(--bg-footer);
@@ -283,6 +364,12 @@ a.color_primary,
     text-decoration: underline;
 }
 
+
+/* #endregion FOOTER */
+
+
+/* #region BREAKPOINT */
+
 @media screen and (max-width:991.98px) {
     .md_hidden {
         display: none;
@@ -294,3 +381,6 @@ a.color_primary,
         width: 50%;
     }
 }
+
+
+/* #endregion BREAKPOINT */
