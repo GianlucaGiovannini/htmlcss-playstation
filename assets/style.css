@@ -55,6 +55,18 @@ a.color_primary,
     background-color: var(--btn-blue);
 }
 
+.btn_light {
+    background-color: var(--btn-light)
+}
+
+.btn_lighter {
+    background-color: var(--btn-lighter)
+}
+
+.bb_grey {
+    border-bottom: 2px solid #DBDBDB;
+}
+
 
 /* HEADER */
 
@@ -95,8 +107,8 @@ a.color_primary,
 }
 
 .dropdown-menu ul .circle {
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
     border-radius: 50%;
     background-color: #0070d1;
 }
@@ -143,12 +155,16 @@ a.color_primary,
 }
 
 .slider_jumbo .cards:hover {
-    animation: bounce-in 1s infinite;
+    animation: bounce-in 100s infinite;
 }
 
 @keyframes bounce-in {
     0% {
         bottom: 0;
+        left: 0;
+    }
+    1% {
+        bottom: 15px;
         left: 0;
     }
     100% {
@@ -190,8 +206,8 @@ a.color_primary,
 }
 
 .new_product .cards:hover {
-    border-bottom: 1px solid blue;
     opacity: 1;
+    box-shadow: 0px 1px 0px 0px blue;
 }
 
 .new_product .cards_top img {
@@ -218,4 +234,23 @@ a.color_primary,
 
 .slider_new_game .cards img {
     border-radius: 18px;
+}
+
+.ps_plus {
+    background-color: var(--bg-plus);
+}
+
+.ps_plus .plus_img img,
+.ps_now .now_img img {
+    height: 7rem;
+}
+
+.ps_now {
+    background-color: var(--bg-play-now);
+}
+
+@media screen and (max-width:991.98px) {
+    .md_hidden {
+        display: none;
+    }
 }
