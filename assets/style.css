@@ -262,6 +262,7 @@ a.color_primary,
 
 .new_product .cards.active {
     opacity: 1;
+    box-shadow: 0px 1px 0px 0px blue;
 }
 
 .new_product .cards.b_bottom {
