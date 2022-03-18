@@ -67,6 +67,10 @@ a.color_primary,
     border-bottom: 2px solid #DBDBDB;
 }
 
+.unstyled {
+    list-style: none;
+}
+
 
 /* HEADER */
 
@@ -249,8 +253,44 @@ a.color_primary,
     background-color: var(--bg-play-now);
 }
 
+
+/* footer */
+
+#site_footer {
+    background-color: var(--bg-footer);
+}
+
+.ps_img img {
+    height: 6rem;
+}
+
+.footer_lang img {
+    height: 1.2rem;
+}
+
+#site_footer li a {
+    color: white;
+    font-size: 1.2rem;
+    line-height: 2.3rem;
+}
+
+.logo_sony_interactive img {
+    height: 5rem;
+}
+
+.copyright a {
+    color: white;
+    text-decoration: underline;
+}
+
 @media screen and (max-width:991.98px) {
     .md_hidden {
         display: none;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .w_50 {
+        width: 50%;
     }
 }
