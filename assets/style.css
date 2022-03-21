@@ -198,11 +198,17 @@ a.color_primary,
 /* #endregion navbar */
 
 
+/* #endregion HEADER */
+
+
+/* #region MAIN */
+
+
 /* jumbotron*/
 
 .jumbotron {
     height: 70vh;
-    background-image: url(./img/jumbo-bg.png);
+    background-image: url(../assets/img/jumbo-bg.png);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -341,7 +347,7 @@ a.color_primary,
 }
 
 
-/* #endregion HEADER*/
+/* #endregion MAIN*/
 
 
 /* #region FOOTER */
